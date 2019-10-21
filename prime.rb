@@ -3,11 +3,11 @@ def prime?(num)
   count = 0
   until x < num
       if  num % x == 0 || (2..num -1).none?
-      return "false"
+      return false
       count +=1 
       
       else 
-      return "true."
+      return true 
       end 
      
 # is a prime number
